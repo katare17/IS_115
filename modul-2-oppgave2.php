@@ -1,6 +1,6 @@
 <?php 
 
-$navn = "Egebakken"
+$navn = "Egebakken";
 
 ?>
 
