@@ -1,5 +1,6 @@
 <?php 
 
+<<<<<<< HEAD
     // Definerer funksjonen og lengden på passordet
 function generatePassword($length = 8) {
 
@@ -25,6 +26,10 @@ function generatePassword($length = 8) {
     //ikke alltid er tall, stor bokstav, liten bokstav
     return str_shuffle($password);
 }
+=======
+$navn = "Egebakken"
+
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 ?>
 
 <!DOCTYPE html>
@@ -61,6 +66,7 @@ function generatePassword($length = 8) {
   </div>
 </nav>
     <link rel="stylesheet" href="bootstrap.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
     <title>Katarina Kirkhus</title>  
 </head>
@@ -105,5 +111,16 @@ function generatePassword($length = 8) {
       <?php echo generatePassword(8)?>
 </p>
 </div>
+=======
+    <title>Katarina Kirkhus</title>
+</head>
+
+<body>
+    <h1>Oppgave 5</h1>
+    <br>
+    <p>
+</p>
+
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 </body>
 </html>

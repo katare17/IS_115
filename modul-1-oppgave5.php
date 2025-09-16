@@ -39,6 +39,7 @@ $hilsen = "Katarina";
   </div>
 </nav>
     <link rel="stylesheet" href="bootstrap.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -49,4 +50,12 @@ $hilsen = "Katarina";
 </p>
 </div>
 
+=======
+</head>
+
+<body>
+      <h1>Oppgave 5</h1>
+    <p><?php echo "God morgen $navn! $hilsen."?>
+</p>
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 </body>

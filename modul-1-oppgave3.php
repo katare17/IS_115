@@ -38,14 +38,21 @@ $navn = "Katarina";
   </div>
 </nav>
     <link rel="stylesheet" href="bootstrap.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
+=======
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
         <title>Navn og alder</title>
         <meta charset="UTF-8">
         
     </head>
 
     <body>
+<<<<<<< HEAD
   <div class="centered-content"> 
+=======
+
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <h1>Oppgave 3</h1>
             <br> 
 
@@ -84,7 +91,11 @@ $navn = "Katarina";
             <br> 
             Alderen i en paragraf: <?php echo $alder ?>. 
             </p>
+<<<<<<< HEAD
             </div>
 
+=======
+            
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     </body>
 </html>

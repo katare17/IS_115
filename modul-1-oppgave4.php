@@ -39,11 +39,17 @@
   </div>
 </nav>
     <link rel="stylesheet" href="bootstrap.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="centered-content"> 
+=======
+</head>
+
+<body>
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <h1>Oppgave 4</h1>
     <p>Her kommer kalkulatoren min. Den tar tallene <?php echo $tall1?> og <?php echo $tall2?> og summerer dem, samt regner ut gjennomsnittet av dem. 
     <br>
@@ -51,7 +57,10 @@
     <br>
     Gjennomsnittet av tallene blir <?php echo ($tall1 + $tall2) / 2?>.
     </p>
+<<<<<<< HEAD
 </div>
+=======
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 
 </body>
 

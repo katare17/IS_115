@@ -39,12 +39,18 @@ $email2 = "mikael.no";
   </div>
 </nav>
     <link rel="stylesheet" href="bootstrap.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
+=======
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <title>Katarina Kirkhus</title>
 </head>
 
 <body>
+<<<<<<< HEAD
     <div class="centered-content"> 
+=======
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <h1>Oppgave 3</h1>
     <br>
     <p>Dette er epostene jeg har skrevet inn: <?php echo $email1?> & <?php echo $email2?>. 
@@ -66,7 +72,10 @@ $email2 = "mikael.no";
 
 
 </p>
+<<<<<<< HEAD
 </div>
+=======
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 
 </body>
 </html>

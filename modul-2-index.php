@@ -33,11 +33,15 @@
   </div>
 </nav>
     <link rel="stylesheet" href="bootstrap.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
+=======
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <title>Katarina Kirkhus</title>
 </head>
 
 <body>
+<<<<<<< HEAD
     <div class="centered-content"> 
     <h1>Hei igjen!</h1>
     <p>Dette er min andre innlevering i IS-115.
@@ -45,6 +49,10 @@
     Her kan du også klikke deg rundt og se på alle oppgavene i modul 2.
     </p>
 </div>
+=======
+    <h1>Hei igjen!</h1>
+    <p>Dette er min andre innlevering i IS-115.</p>
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 
 </body>
 

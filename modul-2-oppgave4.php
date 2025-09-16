@@ -38,12 +38,18 @@ $tall2= 30;
   </div>
 </nav>
     <link rel="stylesheet" href="bootstrap.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
+=======
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <title>Katarina Kirkhus</title>
 </head>
 
 <body>
+<<<<<<< HEAD
     <div class="centered-content"> 
+=======
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <h1>Oppgave 4</h1>
     <br>
     <p>Dette er tallene jeg har skrevet inn: <?php echo $tall1?> & <?php echo $tall2?>
@@ -65,7 +71,10 @@ $tall2= 30;
      echo $absoluteDifference2 = abs($tall2 - $tall1);
     ?>
 </p>
+<<<<<<< HEAD
 </div>
+=======
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 
 </body>
 </html>

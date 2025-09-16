@@ -33,12 +33,18 @@
   </div>
 </nav>
     <link rel="stylesheet" href="bootstrap.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
     <title>Katarina Kirkhus</title>
 </head>
 <body>
   <div class="centered-content">   
 I teksten kommer det frem at display_errors er satt til 
+=======
+    <title>Katarina Kirkhus</title>
+</head>
+<body>I teksten kommer det frem at display_errors er satt til 
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <br>On lokalt og On på master value, dette betyr at dersom 
     <br>det finnes feil i koden, så vil det komme opp feilkoder 
     <br>i nettleseren. Document_root er satt til C:/xampp/htdocs, 
@@ -47,8 +53,11 @@ I teksten kommer det frem at display_errors er satt til
     <br>for å bli kjent med hvordan php-filen fungerer og hva man 
     <br>kan forvente av oppførsel i det man gjør videre, også 
     <br>kjent som konfigurasjonsinnstillingene. 
+<<<<<<< HEAD
     </div>
 
+=======
+>>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 </body>
 
 <?php phpinfo();
