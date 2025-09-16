@@ -39,18 +39,12 @@ $navn = "kAtaRina KriStiansEn egebAkken"
   </div>
 </nav>
     <link rel="stylesheet" href="bootstrap.css">
-<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
-=======
->>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <title>Katarina Kirkhus</title>
 </head>
 
 <body>
-<<<<<<< HEAD
     <div class="centered-content"> 
-=======
->>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <h1>Oppgave 1</h1>
     <br>
     <p>Dette er navnet jeg har skrevet inn: <?php echo $navn ?>. 
@@ -62,10 +56,7 @@ $navn = "kAtaRina KriStiansEn egebAkken"
     <br>
         3) Her er antallet tegn i navnet uten mellomrom: <?php echo strlen(str_replace(" ", "", $navn))?>.
 </p>
-<<<<<<< HEAD
 </div>
-=======
->>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 
 </body>
 </html>

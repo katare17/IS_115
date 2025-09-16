@@ -91,11 +91,7 @@ $navn = "Katarina";
             <br> 
             Alderen i en paragraf: <?php echo $alder ?>. 
             </p>
-<<<<<<< HEAD
             </div>
 
-=======
-            
->>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     </body>
 </html>

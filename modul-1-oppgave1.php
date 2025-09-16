@@ -33,15 +33,11 @@
   </div>
 </nav>
     <link rel="stylesheet" href="bootstrap.css">
-<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
-=======
->>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <title>Katarina Kirkhus</title>
 </head>
 
 <body>
-<<<<<<< HEAD
     <div class="centered-content"> 
     <h1>Oppgave 1</h1>
     <br>
@@ -49,11 +45,5 @@
 </div>
 
   </body>
-=======
-    <h1>Oppgave 1</h1>
-    <br>
-    <p>Brukernavnet mitt på Discord er <b>Katarina</b> (Migrenina). Jeg skrev om bruk av Codecademy, en ressurs jeg har brukt en del selv tidligere :)</p>
-</body>
->>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 
 </html>

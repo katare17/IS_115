@@ -72,10 +72,7 @@ $email2 = "mikael.no";
 
 
 </p>
-<<<<<<< HEAD
 </div>
-=======
->>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 
 </body>
 </html>

@@ -46,15 +46,11 @@
   </div>
 </nav>
     <link rel="stylesheet" href="bootstrap.css">
-<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
-=======
->>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <title>Katarina Kirkhus</title>
 </head>
 
 <body>
-<<<<<<< HEAD
     <div class="centered-content"> 
 
     <h1>Heihei!</h1>
@@ -62,12 +58,6 @@
     Som du kanskje ser så har jeg inkludert en Bootswatchfil, bare for å bli litt kjent.
   <br> Klikk deg gjerne videre og kikk på oppgavene mine :) </p>
 </div>
-=======
-    <h1>Heihei!</h1>
-    <p>Dette er min første innlevering i IS-115.<br>
-    Som du kanskje ser så har jeg inkludert en Bootswatchfil, bare for å bli litt kjent.
-  <br> Klikk deg gjerne videre og kikk på oppgavene mine :) </p>
->>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 
 </body>
 

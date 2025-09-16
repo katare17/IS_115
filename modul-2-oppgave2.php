@@ -38,28 +38,19 @@ $navn = "Egebakken"
   </div>
 </nav>
     <link rel="stylesheet" href="bootstrap.css">
-<<<<<<< HEAD
     <link rel="stylesheet" href="style.css">
-=======
->>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <title>Katarina Kirkhus</title>
 </head>
 
 <body>
-<<<<<<< HEAD
     <div class="centered-content"> 
-=======
->>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
     <h1>Oppgave 2</h1>
     <br>
     <p>Dette er navnet jeg har skrevet inn: <?php echo $navn?>. 
     <br>
     Dette er navnet uten HTML- og PHP-kode: <?php echo strip_tags($navn) ?>. 
 </p>
-<<<<<<< HEAD
 </div>
-=======
->>>>>>> 6ee1eb2ba38fb942262153ff4b7c572ffb190e7c
 
 </body>
 </html>
