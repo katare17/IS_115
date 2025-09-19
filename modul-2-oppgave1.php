@@ -1,6 +1,6 @@
 <?php 
 
-$navn = "kAtaRina KriStiansEn egebAkken"
+$navn = "kAtaRina KriStiansEn egebAkken";
 
 ?>
 
