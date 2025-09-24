@@ -15,10 +15,10 @@
         <li class="nav-item">
           <a class="nav-link" href="modul-2-index.php">Modul 2</a>
         </li>
-       <!-- 
         <li class="nav-item">
           <a class="nav-link" href="modul-3-index.php">Modul 3</a>
         </li>
+        <!--
         <li class="nav-item">
           <a class="nav-link" href="modul-4-index.php">Modul 4</a>
         </li>
@@ -57,7 +57,6 @@
     <p>Dette er selveste stedet der du finner mine innleveringer!<br>
     Som du kanskje ser så har jeg inkludert en Bootswatchfil, bare for å bli litt kjent.
   <br> Klikk deg gjerne videre og kikk på oppgavene mine :) </p>
-  <h1> Denne gangen da??? </h1>
 </div>
 
 </body>
