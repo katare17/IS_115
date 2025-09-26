@@ -15,7 +15,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="modul-3-oppgave1.php">Oppgave 1</a>
+          <a class="nav-link active" href="modul-3-oppgave1.php">Oppgave 1</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="modul-3-oppgave2.php">Oppgave 2</a>

@@ -21,7 +21,7 @@
           <a class="nav-link" href="modul-3-oppgave2.php">Oppgave 2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="modul-3-oppgave3.php">Oppgave 3</a>
+          <a class="nav-link active" href="modul-3-oppgave3.php">Oppgave 3</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="modul-3-oppgave4.php">Oppgave 4</a>
@@ -39,7 +39,22 @@
 
 <body>
     <div class="centered-content"> 
+      <?php
+        function renteutregner($solrunder)
+        {
+          $S0 = 1000;
+          $rente = 1.045;
 
+          for($i=0; $i < $solrunder; $i++)
+          {
+            $n = $i+1;
+
+            ${"S$n"} = ${"S$i"} * $rente;
+            echo "Saldoen er " . ${"S$n"} . " etter $solrunder år <br>";
+          }
+        }
+        renteutregner(3);
+      ?>
     </div>
 </body>
 </html>

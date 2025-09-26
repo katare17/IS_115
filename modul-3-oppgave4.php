@@ -24,7 +24,7 @@
           <a class="nav-link" href="modul-3-oppgave3.php">Oppgave 3</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="modul-3-oppgave4.php">Oppgave 4</a>
+          <a class="nav-link active" href="modul-3-oppgave4.php">Oppgave 4</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="modul-3-oppgave5.php">Oppgave 5</a>
