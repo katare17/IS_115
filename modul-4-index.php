@@ -3,31 +3,31 @@
 <head>
 <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Modul 3</a>
+    <a class="navbar-brand" href="#">Modul 4</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.php">Tilbake til moduler
+          <a class="nav-link active" href="index.php">Tilbake til moduler
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="modul-3-oppgave1.php">Oppgave 1</a>
+          <a class="nav-link" href="modul-4-oppgave1.php">Oppgave 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="modul-3-oppgave2.php">Oppgave 2</a>
+          <a class="nav-link" href="modul-4-oppgave2.php">Oppgave 2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="modul-3-oppgave3.php">Oppgave 3</a>
+          <a class="nav-link" href="modul-4-oppgave3.php">Oppgave 3</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="modul-3-oppgave4.php">Oppgave 4</a>
+          <a class="nav-link" href="modul-4-oppgave4.php">Oppgave 4</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="modul-3-oppgave5.php">Oppgave 5</a>
+          <a class="nav-link" href="modul-4-oppgave5.php">Oppgave 5</a>
         </li>
     </div>
   </div>
@@ -39,22 +39,13 @@
 
 <body>
     <div class="centered-content"> 
-      <?php
-        function renteutregner($solrunder)
-        {
-          $S0 = 1000;
-          $rente = 1.045;
+        <?php 
+            $a[7] = 'Steffen';
 
-          for($i=0; $i < $solrunder; $i++)
-          {
-            $n = $i+1;
-
-            ${"S$n"} = ${"S$i"} * $rente;
-            echo "Saldoen er " . ${"S$n"} . " etter $i år <br>";
-          }
-        }
-        renteutregner(3);
-      ?>
+        ?>
     </div>
+
 </body>
 </html>
+
+
