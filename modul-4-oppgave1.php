@@ -3,7 +3,7 @@
 <head>
 <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Modul 3</a>
+    <a class="navbar-brand" href="#">Modul 4</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -15,19 +15,19 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="modul-3-oppgave1.php">Oppgave 1</a>
+          <a class="nav-link active" href="modul-4-oppgave1.php">Oppgave 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="modul-3-oppgave2.php">Oppgave 2</a>
+          <a class="nav-link" href="modul-4-oppgave2.php">Oppgave 2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="modul-3-oppgave3.php">Oppgave 3</a>
+          <a class="nav-link" href="modul-4-oppgave3.php">Oppgave 3</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="modul-3-oppgave4.php">Oppgave 4</a>
+          <a class="nav-link" href="modul-4-oppgave4.php">Oppgave 4</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="modul-3-oppgave5.php">Oppgave 5</a>
+          <a class="nav-link" href="modul-4-oppgave5.php">Oppgave 5</a>
         </li>
     </div>
   </div>
@@ -39,22 +39,33 @@
 
 <body>
     <div class="centered-content"> 
-      <?php
-        function renteutregner($solrunder)
-        {
-          $S0 = 1000;
-          $rente = 1.045;
+        <?php 
 
-          for($i=0; $i < $solrunder; $i++)
-          {
-            $n = $i+1;
 
-            ${"S$n"} = ${"S$i"} * $rente;
-            echo "Saldoen er " . ${"S$n"} . " etter $i år <br>";
-          }
-        }
-        renteutregner(3);
-      ?>
+
+            function matrise_print()
+            {
+
+                $a = array('Data 1');
+
+                $a[3] = 'Data 2';
+                $a[5] = 'Data 3';
+                $a[7] = 'Data 4';
+                $a[8] = 'Data 5'; 
+                $a[15] = 'Data 6';
+                
+                print_r($a);
+
+                foreach($a as $n => $v){
+                    echo("<br> Verdien $v har nøkkelen $n");
+                }
+            }
+
+            matrise_print();
+        ?>
     </div>
+
 </body>
 </html>
+
+
