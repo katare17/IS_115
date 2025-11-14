@@ -1,18 +1,23 @@
 <?php
 
+include 'inc/header.inc.oppgave.php';
+include "lib/brukerklasse.php";
+
 // Setter inn og lager klassen "på nytt" for å overskrive og endre
     class Bruker {
+        // Disse skal lages på et annet tidspunkt, så de blir liggende utenfor konstruktøren
         protected string $regDato;
         protected string $brukernavn = "";
-
+        // Konstruktøren
         public function __construct(
             public string $fornavn,
             public string $etternavn,
             public string $fDato,
             public string $tilgang
         ) {
+            // Lagrer datoen på et annet tidspunkt i koden enn ved forrige versjon
             $this->regDato =date('Y-m-d H:i:s');
-
+            // Lager brukernavn
             $muligeBokstaver = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
             for ($i = 0; $i < 6; $i++) {
                 $this->brukernavn .= $muligeBokstaver[random_int(0, strlen($muligeBokstaver) - 1)];

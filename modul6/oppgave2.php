@@ -13,6 +13,7 @@ class Student extends Bruker {
         }
 };
 
+    // Lager en instans av klassen Student (et objekt)
     $student1 = new Student(
         fornavn: $brukere['fornavn'],
         etternavn: $brukere['etternavn'],
