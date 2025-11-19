@@ -27,10 +27,11 @@
         <li class="nav-item">
           <a class="nav-link" href="./modul6/index.php">Modul 6</a>
         </li>
-    <!--
+
         <li class="nav-item">
-          <a class="nav-link" href="/modul7/index.php">Modul 7</a>
+          <a class="nav-link" href="./modul7/index.php">Modul 7</a>
         </li>
+            <!--
         <li class="nav-item">
           <a class="nav-link" href="/modul8/index.php">Modul 8</a>
         </li>

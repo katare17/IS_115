@@ -4,7 +4,7 @@ include 'inc/header.inc.oppgave.php';
 include "lib/brukerklasse.php";
 
 // Setter inn og lager klassen "på nytt" for å overskrive og endre
-    class Bruker {
+    class Bruker2 {
         // Disse skal lages på et annet tidspunkt, så de blir liggende utenfor konstruktøren
         protected string $regDato;
         protected string $brukernavn = "";
@@ -16,7 +16,7 @@ include "lib/brukerklasse.php";
             public string $tilgang
         ) {
             // Lagrer datoen på et annet tidspunkt i koden enn ved forrige versjon
-            $this->regDato =date('Y-m-d H:i:s');
+            $this->regDato = date('Y-m-d H:i:s');
             // Lager brukernavn
             $muligeBokstaver = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
             for ($i = 0; $i < 6; $i++) {
@@ -43,7 +43,7 @@ include "lib/brukerklasse.php";
 
     $brukere = array('fornavn' => 'Mikkel', 'etternavn' => 'Rev', 'brukernavn' => 'Luringen', 'fødselsdato' => '01.04.1984', 'tilgang' => 'Arbeidsgiver');
 
-    $bruker1 = new Bruker(
+    $bruker1 = new Bruker2(
         fornavn: $brukere['fornavn'],
         etternavn: $brukere['etternavn'],
         fDato: $brukere['fødselsdato'],
