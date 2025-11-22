@@ -24,6 +24,7 @@
 
 <?php 
 
+// Henter funksjonen(metoden) som legger til brukere
 require_once('lib/leggTilBruker.db.inc.php');
 
 

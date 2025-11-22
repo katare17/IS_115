@@ -2,6 +2,7 @@
 <html>
 <head>
 <?php 
+// Henter header, kobler til databasen og henter metoden for å legge til brukere
 include "inc/header.inc.oppgave.php";
 require_once("inc/database.inc.php");
 require_once("lib/leggTilBruker.db.inc.php");
