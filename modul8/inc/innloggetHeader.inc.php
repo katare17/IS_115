@@ -1,19 +1,24 @@
 <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.php">Katarina Kirkhus - Modul 8</a>
+    <a class="navbar-brand" href="../index.php">Katarina Kirkhus</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
+          <a class="nav-link" href="../index.php">Tilbake til moduler
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="utlysninger.php">Stillingsannonser</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="registrering.php">Registrer</a>
+          <a class="nav-link" href="minSide.php">Min side</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="loggInn.php">Logg inn</a>
+          <a class="nav-link" href="loggUt.php">Logg ut</a>
         </li>
       </ul>
     </div>

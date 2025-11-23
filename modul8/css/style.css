@@ -12,3 +12,13 @@
     border: 1px solid black;
     padding: 6px;
   }
+
+
+  .centered-content .utlysning {
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(241, 224, 224);
+    width: 50%;
+  }
