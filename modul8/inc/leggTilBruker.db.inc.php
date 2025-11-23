@@ -1,4 +1,4 @@
-`<?php
+<?php
 require_once('./inc/database.inc.php');
 
 function LeggTilBruker(PDO $pdo, string $fornavn, string $etternavn, string $epost, string $fødselsdato, string $passordHash): bool { 
