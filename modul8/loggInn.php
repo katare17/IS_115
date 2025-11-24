@@ -1,11 +1,12 @@
 <?php session_start();?>
 
 <?php 
+    // Sjekker om en bruker er logget inn og bytter lokasjon til minSide om man er det
     if (!empty($_SESSION['logged_in'])) {
-        header("Location: minprofil.php");
+        header("Location: minSide.php");
         exit;
     }
-
+    // Henter inn databasen og autentiseringsfunksjonene
     require_once "inc/authFunctions.php";
     require_once("inc/database.inc.php");
 ?>
@@ -18,6 +19,7 @@
 
 
     <body>
+        <!-- Henter inn navbar som stemmer med hvorvidt man er logget inn eller ikke -->
         <?php include "inc/navbarController.php";?>
 
         <?php
@@ -47,6 +49,7 @@
                     exit;
                 }
 
+                // Sjekker om brukeren er utestengt og nullstiller failed attempts dersom det er over en time siden
                 if(!empty($medlem->LastFailedAttempt)) {
                     $tz = new DateTimeZone("Europe/Oslo");
                     $now = new DateTime("now", $tz);
@@ -62,11 +65,13 @@
                     }
                 }
 
+                // Skriver ut feilmelding ved låst bruker
                 if(erBrukerLåst($medlem)) {
                     echo "<p style='color:red;'>For mange feilede forsøk. Prøv igjen om 1 time</p>";
                     exit;
                 }
 
+                // Når brukeren logger inn vellykket, nullstilles feilforsøkene, er det ikke vellykket så logges forsøket
                 if(password_verify($password, $medlem->password_hash)) {
 
                     nullstillFeilforsøk($pdo, $medlem->UserID);
