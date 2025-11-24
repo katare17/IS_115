@@ -40,7 +40,7 @@
                     LeggTilBruker($pdo, $fornavn, $etternavn, $epost, $fødselsdato, $passordHash);
 
                     // Sender brukeren videre til login etter registrering
-                    header("Location: oppgave2.php");
+                    header("Location: loggInn.php");
                     exit;
                 } else {
                     echo "<p style='color:red;'>Passordene er ikke like</p>";
